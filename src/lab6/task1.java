@@ -12,7 +12,7 @@ class Myclass1 {
     void setVal (String s){
         string = s;
     }
-    void setVal (char arr []){
+    void setVal (char [] arr){
         if(arr.length == 1)
             symbol = arr[0];
         else if(arr.length > 1){
@@ -29,8 +29,8 @@ public class task1 {
     public static void main(String[] args) {
         Myclass1 class1 = new Myclass1();
 
-        char arr [] = {'a','b','c','d'};
-        char arr1 [] = {'a'};
+        char [] arr  = {'a','b','c','d'};
+        char [] arr1 = {'a'};
         String str = "string";
         char sym = 'z';
 
