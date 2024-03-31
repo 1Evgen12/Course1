@@ -35,4 +35,6 @@ public class Class9 {
                 newList.add(str);
             }
         }
-        return newList;}}
+        return newList;
+}}
+
